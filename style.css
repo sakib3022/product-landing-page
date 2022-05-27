@@ -65,12 +65,18 @@ button:hover {
     align-items: center;
     justify-content: space-between;
     padding: 40px 300px;
+    flex-wrap: wrap;
 }
 
 .fa-solid {
     font-size: 60px;
     color: #FF8C00;
+
 }
+
+/* .battery-icon {
+    padding-right: 100px;
+} */
 
 .video {
     text-align: center;
