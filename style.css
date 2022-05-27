@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 45px;
+
+}
+
+.logo img {
+    width: 300px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0px 50px;
+
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact input {
+    width: 370px;
+    height: 30px;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+button {
+    background-color: rgb(235, 192, 22);
+    padding: 10px 30px;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #FFA500;
+    transition: 1s;
+}
+
+.gap {
+    margin: 10px 0px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+}
+
+.features-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 300px;
+}
+
+.fa-solid {
+    font-size: 60px;
+    color: #FF8C00;
+}
+
+.video {
+    text-align: center;
+    width: auto;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 250px;
+}
+
+.card-1 {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.card-1 h3 {
+    background-color: rgb(156, 150, 150);
+}
+
+
+@media screen and (max-width:688px) {
+    nav {
+        display: none;
+    }
+
+    .contact input {
+        width: 250px;
+        height: 20px;
+        padding: 0px 10px;
+        font-size: 12px;
+    }
+
+    button {
+        background-color: rgb(235, 192, 22);
+        padding: 8px 22px;
+        border: none;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: #FFA500;
+        transition: 1s;
+    }
+
+    .gap {
+        margin: 7px 0px;
+    }
+
+    .features-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+
+    .fa-solid {
+        font-size: 30px;
+        color: #FF8C00;
+    }
+
+    iframe {
+        width: 250px !important;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        padding: 20px 0px;
+    }
+}
+
+@media screen and (min-width:689px) and (max-width:992px) {
+    nav {
+        padding: 10px 25px;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        padding: 0px 35px;
+
+    }
+
+    .contact input {
+        width: 300px;
+        height: 27px;
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+
+    button {
+        background-color: rgb(235, 192, 22);
+        padding: 10px 25px;
+        border: none;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: #FFA500;
+        transition: 1s;
+    }
+
+    .gap {
+        margin: 10px 0px;
+    }
+
+    .features-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px;
+    }
+
+    .fa-solid {
+        font-size: 40px;
+        color: #FF8C00;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        padding: 20px 0px;
+    }
+
+}
