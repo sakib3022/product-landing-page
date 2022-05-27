@@ -89,7 +89,7 @@ button:hover {
 .card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    /* grid-gap: 50px; */
     padding: 50px 250px;
 }
 
