@@ -61,21 +61,24 @@ button:hover {
 }
 
 .features-1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    /* grid-gap: 5px; */
+    /* align-items: center;
+    justify-content: center; */
     padding: 40px 300px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .fa-solid {
     font-size: 60px;
     color: #FF8C00;
+    text-align: end;
 
 }
 
-/* .battery-icon {
-    padding-right: 100px;
+/* .icon {
+    text-align: right !important;
 } */
 
 .video {
